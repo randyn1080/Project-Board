@@ -1,4 +1,4 @@
-export function doSomething() {};
+export function doSomething() {}
 
 export default class { // Component
   constructor(hostElementId, insertBefore = false) {

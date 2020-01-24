@@ -1,6 +1,6 @@
-import Cmp, { doSomething } from './Component.js'
+import Cmp from './Component.js';
 
-console.log('tooltip loaded')
+console.log('tooltip loaded');
 
 export class Tooltip extends Cmp {
   constructor(closeNotifierFunction, text, hostElementId) {
